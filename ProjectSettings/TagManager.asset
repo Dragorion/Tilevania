@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 3469861423
     locked: 0
+  - name: FlyingBat
+    uniqueID: 158048739
+    locked: 0
   - name: Climbing
     uniqueID: 2475679117
     locked: 0
