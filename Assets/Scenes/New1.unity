@@ -1305,8 +1305,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   batWaveConfigs:
-  - {fileID: 11400000, guid: b79c2bede525c8747b8d50b89ad73c5c, type: 2}
-  - {fileID: 11400000, guid: 64bdd7569fd67d54987a741ac6757204, type: 2}
+  - {fileID: 11400000, guid: a7a9e54af127401469f6ce4da58d8e02, type: 2}
+  - {fileID: 11400000, guid: bed251dbd8f797b4c8d834e0e3dd1069, type: 2}
+  looping: 1
 --- !u!4 &880122840
 Transform:
   m_ObjectHideFlags: 0
