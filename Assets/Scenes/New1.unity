@@ -1307,6 +1307,7 @@ MonoBehaviour:
   batWaveConfigs:
   - {fileID: 11400000, guid: a7a9e54af127401469f6ce4da58d8e02, type: 2}
   - {fileID: 11400000, guid: bed251dbd8f797b4c8d834e0e3dd1069, type: 2}
+  - {fileID: 11400000, guid: bed251dbd8f797b4c8d834e0e3dd1069, type: 2}
   looping: 1
 --- !u!4 &880122840
 Transform:
@@ -3681,8 +3682,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2070112882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.565, y: -2.574, z: -0.091796875}
-  m_LocalScale: {x: 0.5130171, y: 0.5130171, z: 0.5130171}
+  m_LocalPosition: {x: -6.629, y: -2.671, z: -0.091796875}
+  m_LocalScale: {x: 0.47300178, y: 0.47300178, z: 0.47300178}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
