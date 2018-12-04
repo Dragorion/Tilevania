@@ -9,10 +9,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 94586958d5921da4dae8a84b658bf736, type: 3}
-  m_Name: GhostWave1
+  m_Name: RavenWaveRight1
   m_EditorClassIdentifier: 
-  batPrefab: {fileID: 1404481528021234, guid: c7c4216aa74fc9c42bd250899aad1092, type: 2}
-  pathPrefab: {fileID: 1701754218145436, guid: 7cf9b3cebd301db47beaa3cd74667b14, type: 2}
+  batPrefab: {fileID: 1543702831901682, guid: 0ebe8530075e6804490de4c49a286e1e, type: 2}
+  pathPrefab: {fileID: 1701754218145436, guid: ff576eb2a9e4a144e9787054c6d71341, type: 2}
   timeBetweenSpawns: 30
   numberOfBats: 1
-  moveSpeed: 2
+  moveSpeed: 1

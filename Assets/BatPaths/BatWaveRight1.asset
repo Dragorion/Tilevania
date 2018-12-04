@@ -13,6 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   batPrefab: {fileID: 1453315550513490, guid: aa920d14840cce54db5d1968f4ca23e1, type: 2}
   pathPrefab: {fileID: 1701754218145436, guid: ff576eb2a9e4a144e9787054c6d71341, type: 2}
-  timeBetweenSpawns: 5
+  timeBetweenSpawns: 30
   numberOfBats: 1
-  moveSpeed: 2
+  moveSpeed: 0.8
