@@ -6,14 +6,18 @@ public class BatSpawner : MonoBehaviour {
 
     [SerializeField] List<BatWaveConfig> batWaveConfigs; // how many bat waves we have
     int startingBatWave = 0;
+    [SerializeField] bool looping = true;  // loop bat waves
 
     
     // Use this for initialization
-	void Start () {
-        
-        StartCoroutine(SpawnAllBatWaves());
-		
-	}
+	IEnumerator Start ()
+    {
+        do
+        {
+            yield return StartCoroutine(SpawnAllBatWaves());
+        }
+        while (looping);
+    }
 
     private IEnumerator SpawnAllBatWaves()
     {
@@ -21,8 +25,6 @@ public class BatSpawner : MonoBehaviour {
         {
             var currentBatWave = batWaveConfigs[waveIndex];
             yield return StartCoroutine(SpawnBatWave(currentBatWave));
-            
-
         }
         
         
